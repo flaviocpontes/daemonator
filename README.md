@@ -1,4 +1,4 @@
-#Daemon-Python (0.2)
+#Daemon-Python (0.3)
 Lightweight and no-nonsense POSIX daemon library. Extensible, complete with process forking and [PID][4] management.
 
 Inspired by [Sander Marechal][2].
@@ -10,8 +10,8 @@ MIT/X11 - See [LICENSE][1]
 
 **Installation**
 
-		# git clone https://github.com/stackd/daemon-py.git
-		# cd seat-py/
+		# git clone https://github.com/flaviocpontes/daemon-py.git
+		# cd daemon-py/
 		# python setup.py install
 
  *Note: Daemon-Python, as of version 0.2, has only been tested on Linux. The setup.py script will automatically detect if the underlying platform is compatible, as well as determine the appropriate version of Python.*
