@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Daemon-Python (0.2)
+Daemon-Python (0.3.1)
 Lightweight and no-nonsense POSIX daemon library
 https://github.com/stackd/daemon-py
 
@@ -168,4 +168,4 @@ class Daemon:
         It will be called after the process has been daemonized by 
         start() or restart().
         """
-        
+        raise NotImplementedError

@@ -24,7 +24,7 @@ else:
 
 setup(
     name='daemon',
-    version='0.3',
+    version='0.3.1',
     description='Lightweight and no-nonsense POSIX daemon library for Python (2.x.x/3.x.x)',
     long_description=long_description,
     author='Fredrick Galoso - Stackd, LLC',

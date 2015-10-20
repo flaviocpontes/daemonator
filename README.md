@@ -1,4 +1,4 @@
-#Daemon-Python (0.3)
+#Daemon-Python (0.3.1)
 Lightweight and no-nonsense POSIX daemon library. Extensible, complete with process forking and [PID][4] management.
 
 Inspired by [Sander Marechal][2].
