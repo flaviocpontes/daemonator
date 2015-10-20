@@ -23,14 +23,14 @@ else:
     package_dir = {'': 'src/2.x.x'}
 
 setup(
-    name='daemon',
+    name='daemonator',
     version='0.3.1',
     description='Lightweight and no-nonsense POSIX daemon library for Python (2.x.x/3.x.x)',
     long_description=long_description,
     author='Fredrick Galoso - Stackd, LLC',
     license='MIT/X11',
     platforms='Linux',
-    url='https://github.com/stackd/daemon-py',
+    url='https://github.com/flaviocpontes/daemon-py',
     download_url='https://github.com/stackd/daemon-py.git',
     package_dir=package_dir,
     py_modules=[
