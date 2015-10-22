@@ -1,4 +1,4 @@
-Daemon-Python, lightweight and no-nonsense POSIX daemon library.
+Daemonator, lightweight and no-nonsense POSIX daemon library.
 Copyright (c) 2010 Fredrick Galoso http://stackd.com/
 
 Based on source code (public domain) by Sander Marechal

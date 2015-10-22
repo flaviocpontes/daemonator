@@ -30,10 +30,10 @@ setup(
     author='Fredrick Galoso - Stackd, LLC',
     license='MIT/X11',
     platforms='Linux',
-    url='https://github.com/flaviocpontes/daemon-py',
-    download_url='https://github.com/stackd/daemon-py.git',
+    url='https://github.com/flaviocpontes/daemonator',
+    download_url='https://github.com/flaviocpontes/daemonator.git',
     package_dir=package_dir,
     py_modules=[
         'daemon',
-    ],
+        ],
 )
