@@ -1,4 +1,4 @@
-#Daemonator (0.3.3) Formerly Daemon-Python
+#Daemonator (0.4.1) Formerly Daemon-Python
 Lightweight and no-nonsense POSIX daemon library. Extensible, complete with process forking and [PID][4] management. 
 
 Inspired by [Sander Marechal][2].
@@ -13,8 +13,6 @@ MIT/X11 - See [LICENSE][1]
 		# git clone https://github.com/flaviocpontes/daemonator.git
 		# cd daemonator/
 		# python setup.py install
-
- *Note: Daemonator, as of version 0.2, has only been tested on Linux. The setup.py script will automatically detect if the underlying platform is compatible, as well as determine the appropriate version of Python.*
 
 1. **Instantiation**
 
@@ -50,9 +48,7 @@ MIT/X11 - See [LICENSE][1]
 		        sys.stdout.write("Usage: %s start|stop|restart|status\n" % sys.argv[0])
 		        sys.exit(2)
 
-For a complete basic implementation, see [src/test.py][3]
-
-  [1]: https://github.com/stackd/daemon-py/blob/master/LICENSE
+  [1]: https://github.com/flaviocpontes/daemonator/blob/master/LICENSE
   [2]: http://www.jejik.com/articles/2007/02/a_simple_unix_linux_daemon_in_python/
   [3]: https://github.com/stackd/daemon-py/blob/master/src/test.py
   [4]: http://en.wikipedia.org/wiki/Process_identifier

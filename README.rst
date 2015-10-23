@@ -1,4 +1,4 @@
-Daemonator (0.3.3)
+Daemonator (0.4.1) Formerly Daemon-Python
 ==================
 
 Lightweight and no-nonsense POSIX daemon library. Extensible, complete
@@ -21,13 +21,9 @@ Getting Started
 
 ::
 
-        # git clone https://github.com/flaviocpontes/daemon-py.git
+        # git clone https://github.com/flaviocpontes/daemonator.git
         # cd daemon-py/
         # python setup.py install
-
-*Note: Daemon-Python, as of version 0.2, has only been tested on Linux.
-The setup.py script will automatically detect if the underlying platform
-is compatible, as well as determine the appropriate version of Python.*
 
 1. **Instantiation**
 
@@ -67,5 +63,3 @@ is compatible, as well as determine the appropriate version of Python.*
                sys.stdout.write("Usage: %s start|stop|restart|status\n" % sys.argv[0])
                sys.exit(2)
 
-For a complete basic implementation, see
-`src/test.py <https://github.com/stackd/daemon-py/blob/master/src/test.py>`__
