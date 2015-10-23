@@ -1,4 +1,4 @@
-Daemonator (0.4.1) Formerly Daemon-Python
+Daemonator (0.4.1.1) Formerly Daemon-Python
 ==================
 
 Lightweight and no-nonsense POSIX daemon library. Extensible, complete

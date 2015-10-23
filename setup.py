@@ -34,6 +34,6 @@ setup(
     packages=[__package__, ],
     platforms='Linux',
     url='https://github.com/flaviocpontes/daemonator',
-    download_url='https://github.com/flaviocpontes/daemonator/tarball/0.4.1',
+    download_url='https://github.com/flaviocpontes/daemonator/tarball/0.4.1.1',
     package_data={'': ['README.rst',]},
 )

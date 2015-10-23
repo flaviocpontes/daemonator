@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Daemonator (0.4) - Previously Daemon-Python
+Daemonator (0.4.1.1) - Previously Daemon-Python
 Lightweight and no-nonsense POSIX daemon library
 https://github.com/stackd/daemon-py
 
