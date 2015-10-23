@@ -32,7 +32,7 @@ setup(
     license='MIT/X11',
     platforms='Linux',
     url='https://github.com/flaviocpontes/daemonator',
-    download_url='https://github.com/flaviocpontes/daemonator/tarball/0.3.2',
+    download_url='https://github.com/flaviocpontes/daemonator/tarball/0.3.3',
     package_dir=package_dir,
     py_modules=[
         'daemon',
