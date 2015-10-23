@@ -13,7 +13,7 @@ if platform.startswith('linux') == False:
 
 here = path.abspath(path.dirname(__file__))
 
-with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+with open(path.join(here, 'README.md')) as f:
     long_description = f.read()
 
 """Determine appropriate Python version for installation."""
@@ -24,14 +24,14 @@ else:
 
 setup(
     name='daemonator',
-    version='0.3.1',
+    version='0.3.2',
     description='Lightweight and no-nonsense POSIX daemon library for Python (2.x.x/3.x.x)',
     long_description=long_description,
     author='Fredrick Galoso - Stackd, LLC',
     license='MIT/X11',
     platforms='Linux',
     url='https://github.com/flaviocpontes/daemonator',
-    download_url='https://github.com/flaviocpontes/daemonator.git',
+    download_url='https://github.com/flaviocpontes/daemonator/tarball/0.3.2',
     package_dir=package_dir,
     py_modules=[
         'daemon',
