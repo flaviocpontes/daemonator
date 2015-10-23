@@ -13,7 +13,7 @@ if platform.startswith('linux') == False:
 
 here = path.abspath(path.dirname(__file__))
 
-with open(path.join(here, 'README.md')) as f:
+with open(path.join(here, 'README.rst')) as f:
     long_description = f.read()
 
 """Determine appropriate Python version for installation."""
@@ -24,10 +24,11 @@ else:
 
 setup(
     name='daemonator',
-    version='0.3.2',
+    version='0.3.3',
     description='Lightweight and no-nonsense POSIX daemon library for Python (2.x.x/3.x.x)',
     long_description=long_description,
-    author='Fredrick Galoso - Stackd, LLC',
+    author='Flávio Pontes',
+    author_email='flaviopontes@acerp.org.br',
     license='MIT/X11',
     platforms='Linux',
     url='https://github.com/flaviocpontes/daemonator',

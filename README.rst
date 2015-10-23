@@ -1,4 +1,4 @@
-Daemonator (0.3.2)
+Daemonator (0.3.3)
 ==================
 
 Lightweight and no-nonsense POSIX daemon library. Extensible, complete
